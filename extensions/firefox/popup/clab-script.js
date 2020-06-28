@@ -12,9 +12,9 @@ function logTabs(tabs) {
   const package = fetchPackageSignature(tabURL.host);
 
   new QRCode(document.getElementById("qrcode"), {
-    text: `http://192.168.1.8:8080?link=${link}&scheme=${scheme}&package=${package}`,
-    width: 120,
-    height: 120,
+    text: `http://www.uzairfasih.me/clab/content/process?link=${link}&scheme=${scheme}&package=${package}`,
+    width: 256,
+    height: 256,
     colorDark: "#445569",
     colorLight: "#ffffff",
     correctLevel: QRCode.CorrectLevel.H,
