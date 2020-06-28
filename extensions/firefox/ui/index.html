@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="qrcode.min.js"></script>
+</head>
+
+<body class="align-center flex-col">
+  <div id="qrcode-container">
+    <div id="qrcode"></div>
+  </div>
+  <script src="sample.js"></script>
+</body>
+
+</html>
+
+
+<style>
+  *,
+  *::after,
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 10px;
+  }
+
+  body {
+    background-color: #6067f2;
+    color: #FFF;
+    padding: 3rem;
+    width: 35rem;
+  }
+
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .justify-center {
+    justify-content: center;
+  }
+
+  .align-center {
+    align-items: center;
+  }
+
+  #qrcode-container {
+    padding: 1rem;
+    background-color: #FFF;
+    border-radius: 5px;
+    width: min-content;
+  }
+</style>
